@@ -1,16 +1,14 @@
 package org.example;
 
 /*
- *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  UCF COP3330 Fall 2021 Assignment 8 Solution
  *  Copyright 2021 Daniel Ragusa
  */
 
 import java.util.Scanner;
-import java.util.Calendar;
 
 public class App
 {
-    public static final double conversion=0.09290304;
     public static void main( String[] args )
     {
         int people;
@@ -38,7 +36,7 @@ public class App
 
         System.out.print("There are " +(pizza*slices%people) + " leftover pieces.");
 
-        
+
     }
 }
 
